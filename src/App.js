@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import * as ReactDOM from "react-dom/client";
+import Header from './components/Header';
+// import Footer from './components/Footer';
+// import {Routes, Route} from 'react-router-dom';
+import Home from './pages/Home.component';
+// import  Body from './components/Body';
+// import NosPlans from './pages/NosPlans';
+// import Navbar from './components/Navbar';
+// import NosAppartements from './pages/NosAppartements';
+// import NosRealisations from './pages/NosRealisations';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( 
+    <div className="bg-blue-900">
+    
     </div>
-  );
+     );
 }
 
 export default App;

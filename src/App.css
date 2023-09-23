@@ -27,6 +27,59 @@
 .App-link {
   color: #61dafb;
 }
+li{
+  padding:1rem;
+}
+button{
+  border-radius:6px;
+}
+button:hover{
+  background-color:#3b82f6;
+  color:white;
+  border-color:#fafafa;
+}
+.bgadd{
+  background:url('../src/assets/images_accueil/background_img/Bg.jpg');
+  background-size: cover;
+}
+/* styles.css (ou votre fichier CSS) */
+.scroll-background{
+  background: linear-gradient(to right, #1a2027, #3b82f6);
+ /* Vous pouvez remplacer "red" par la couleur de votre choix */
+}
+.mobile-navbar {
+  background-color: #3b82f6;
+}
+/* scrolling img */
+.scrolling-content {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.border-top-custom{
+  border-top: 3px solid #3B82F6;
+  width:15%;
+
+  
+}
+.top-menu {
+  position: sticky; /* Fixe la barre en haut de la fenêtre */
+  top: 0; /* Positionne la barre en haut de la fenêtre */
+  /* background-color: #282c34; Couleur de fond de la barre */
+  z-index: 20; /* Place la barre au-dessus des autres éléments */
+  transition: background-color 0.3s ease
+}
+.scrolling-content img {
+  display: inline-block;
+  margin-right: 10px ; /* Espace entre les images */
+  transition: transform 1s linear infinite; /* Durée et type de transition */
+}
+
+.scrolling-content:hover img {
+  transform: translateX(-100%); /* Animation de défilement */
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
